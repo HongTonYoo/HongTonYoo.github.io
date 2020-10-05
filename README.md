@@ -2,7 +2,6 @@
 
 ## 三石的小栈
 
-
 <!-- slide -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/08/18/HVKMeuCvlnOJUq6.jpg" , data-background-opacity="0.5"-->
 
