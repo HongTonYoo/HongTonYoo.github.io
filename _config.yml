@@ -607,19 +607,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-            <script>
-              var usage = "payment";
-              var wechat = "wxp://f2f0eSWujSfeX2tCgYsX8oPACeeP0MZ_8xFi";
-              var alipay = "https://qr.alipay.com/fkx11604w2lps4ikjme4if5";
-              var myname = "3Stones";
-              var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
-              var multilingual = true;
-              var myname_hans = "唐磊";
-              var myname_hant = "唐磊";
-              var myname_eng = "3Stones";
-              var title = "选择你的支付方式";
-              var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-            </script>
+              <script>
+                var usage = "payment";
+                var wechat = "wxp://f2f0eSWujSfeX2tCgYsX8oPACeeP0MZ_8xFi";
+                var alipay = "https://qr.alipay.com/fkx11604w2lps4ikjme4if5";
+                var myname = "3Stones";
+                var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
+                var multilingual = true;
+                var myname_hans = "唐磊";
+                var myname_hant = "唐磊";
+                var myname_eng = "3Stones";
+                var title = "选择你的支付方式";
+                var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+              </script>
             - |
               <meta
                 charset="utf-8"
