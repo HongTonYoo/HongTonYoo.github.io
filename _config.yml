@@ -612,7 +612,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var wechat = "wxp://f2f0eSWujSfeX2tCgYsX8oPACeeP0MZ_8xFi";
                 var alipay = "https://qr.alipay.com/fkx11604w2lps4ikjme4if5";
                 var myname = "3Stones";
-                var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
+                var profile = "https://en.gravatar.com/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=320";
                 var multilingual = true;
                 var myname_hans = "唐磊";
                 var myname_hant = "唐磊";
