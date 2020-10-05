@@ -20,8 +20,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           body:
-            theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: false # 开启后sidebar在右边，反之左边
+            theme-base: theme-base-0f # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+            layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: false # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #百度统计代码
@@ -374,31 +374,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_second"),
                     "04/03/2020 10:51:00")
                   </script>
-                </div>
-              - | # 不蒜子页面统计，看不懂可不改
-                <div>
-                  <div>
-                    <i class="fas fa-eye fa-fw"></i>
-                    <span id="busuanzi_value_page_pv">
-                      <i class="fas fa-spinner fa-pulse"></i>
-                    </span>次
-                  </div>
-                  <div>
-                    <i class="fas fa-paw fa-fw"></i>
-                    <span id="busuanzi_value_site_pv">
-                      <i class="fas fa-spinner fa-pulse"></i>
-                    </span>枚
-                  </div>
-                  <div>
-                    <i class="fas fa-user-friends fa-fw"></i>
-                    <span id="busuanzi_value_site_uv">
-                      <i class="fas fa-spinner fa-pulse"></i>
-                    </span>人
-                  </div>
-                  <script
-                    src='https://cdn.jsdelivr.net/npm/busuanzi@2.3.0'
-                    async='async'
-                  ></script>
                 </div>
               - | # 觉得我的主题好用的话，让更多的人知道它吧！
                 <div>
