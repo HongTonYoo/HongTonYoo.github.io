@@ -5,13 +5,13 @@ renderNumberedHeading: true
 grammar_cjkRuby: true
 ---
 
-##**Window**
+## **Window**
 
-##run
+## run
 <pre><code class="language-css">@echo OFF
 java -Xmx4g -jar server.jar
 </code></pre>
 
 ### **.jar**
 <br/>
--[链接](http://pan.3stones.tk/Minecraft%20server)
+-[链接](http://pan.tangsanshi.top/Minecraft%20server)
