@@ -1,6 +1,6 @@
 ---
 title: Minecraft开服
-tags: other
+tags: 游戏
 renderNumberedHeading: true
 grammar_cjkRuby: true
 ---
