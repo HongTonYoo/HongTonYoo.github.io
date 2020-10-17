@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /
+Sitemap: https://tangsanshi.top/sitemap.xml
