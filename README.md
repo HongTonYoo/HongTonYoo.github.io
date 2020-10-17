@@ -2,7 +2,7 @@
 
 ## 三石的小栈
 
-<!-- slide -->
+<!-- slide vertical=true -->
 <!-- .slide: data-background-image="https://i.loli.net/2020/10/05/aMFu8h6bYET1gi4.jpg" , data-background-opacity="0.5"-->
 
 ## 书架上的标签
@@ -14,6 +14,8 @@
 <!-- .slide: data-background-image="https://i.loli.net/2020/10/05/aMFu8h6bYET1gi4.jpg" , data-background-opacity="0.5"-->
 
 ## 夹在书中的名片
+
+<!-- slide vertical=true -->
 
 ### 三石
 #### 爱好游戏的学生
