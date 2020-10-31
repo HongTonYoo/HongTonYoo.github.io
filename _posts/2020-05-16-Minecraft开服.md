@@ -22,6 +22,7 @@ Mod服以及插件服需要第三方服务端
 
 ## 启动
 新建.txt文件，输入
+
 <pre><code class="language-css">@echo OFF
 java -Xmx2G -Xms256M -jar <文件名>.jar
 pause
