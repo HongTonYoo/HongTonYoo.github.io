@@ -393,7 +393,21 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                  04/03/2020
                 </div>
               - | # 心知天气
-                <iframe>weather.seniverse.com/?token=bd7b90a9-9c97-495d-b8c1-4f14947ff2ae</iframe>
+                <div id="tp-weather-widget"></div>
+                <script>
+                  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+                 window.SeniverseWeatherWidget('show', {
+                   flavor: "slim",
+                   location: "WX4FBXXFKE4F",
+                   geolocation: true,
+                   language: "zh-Hans",
+                   unit: "c",
+                   theme: "auto",
+                   token: "bd7b90a9-9c97-495d-b8c1-4f14947ff2ae",
+                   hover: "enabled",
+                   container: "tp-weather-widget"
+                  })
+                 </script>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
