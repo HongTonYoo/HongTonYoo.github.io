@@ -60,8 +60,7 @@ pause
 同windows
 
 ## 启动
-这里用脚本启动
-
+这里用脚本启动<br/>
 
 <pre><code class="language-css">
 #!/bin/sh
