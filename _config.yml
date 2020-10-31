@@ -2,21 +2,21 @@ title: 三石 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   ‘自然选择’，前进四
   <br/>
-   <div id="tp-weather-widget"></div>
-    <script>
-     (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-     window.SeniverseWeatherWidget('show', {
+  <div id="tp-weather-widget"></div>
+  <script>
+    (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+    window.SeniverseWeatherWidget('show', {
       flavor: "slim",
       location: "WX4FBXXFKE4F",
       geolocation: true,
       language: "zh-Hans",
       unit: "c",
-      theme: "auto",
-      oken: "bd7b90a9-9c97-495d-b8c1-4f14947ff2ae",
+      theme: "dark",
+      token: "bd7b90a9-9c97-495d-b8c1-4f14947ff2ae",
       hover: "disabled",
       container: "tp-weather-widget"
-      })
-     </script>
+    })
+  </script>
   <br>
   <a href="https://github.com/HongTonYoo">
     <i class="fab fa-github"></i>
