@@ -396,7 +396,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <style>
                 #tp-weather-widget .sw-container {
                 font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-                color: #FFF;
+                color: #FFFFF;
                 left: unset;
                 right: 10px;
                 top: unset;
