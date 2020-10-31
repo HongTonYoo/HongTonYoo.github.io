@@ -28,3 +28,7 @@
 
 <!-- slide vertical=true -->
 
+# 感谢
+
+- [Gravatar头像镜像源](https://zhuanlan.zhihu.com/p/115248957)
+- [jekyll主题](https://github.com/wu-kan/wu-kan.github.io)
