@@ -50,10 +50,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 type="application/rss+xml"
               />
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
-              <script
-                async="async"
-                src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/asset/js/FunnyTitle.js"
-              ></script>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/asset/js/FunnyTitle.js"></script>
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
