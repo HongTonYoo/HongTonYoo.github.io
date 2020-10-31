@@ -2,8 +2,6 @@ title: 三石 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   ‘自然选择’，前进四
   <br/>
-  <iframe>weather.seniverse.com/?token=bd7b90a9-9c97-495d-b8c1-4f14947ff2ae<iframe/>
-  <br/>
   <a href="https://github.com/HongTonYoo">
     <i class="fab fa-github"></i>
   </a>
