@@ -64,7 +64,9 @@ pause
 
 ```cpp
 #!/bin/sh
-java -Xms4G -Xmx512M -jar <路径> nogui;</code></pre>
+
+java -Xms4G -Xmx512M -jar <路径>
+nogui
 ```
 
 ## 配置
