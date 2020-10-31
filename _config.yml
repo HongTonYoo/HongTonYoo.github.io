@@ -50,15 +50,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 type="application/rss+xml"
               />
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
-              <link
-                rel="apple-touch-icon-precomposed"
-                href="https://gravatar.zeruns.tech/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=320"
-              />
-              <link
-                rel="shortcut
-                icon"
-                href="https://gravatar.zeruns.tech/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=32"
-              />
+              <script
+                async="async"
+                src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/asset/js/FunnyTitle.js"
+              ></script>
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
