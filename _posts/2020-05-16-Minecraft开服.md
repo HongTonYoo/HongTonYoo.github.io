@@ -13,8 +13,8 @@ https://minecraft-zh.gamepedia.com/Server.properties
 
 ## 服务端
 打开官方启动器->配置->新建->选择版本->服务器<br/>
-接着会打开浏览器下载<br/>
-得到一个server.jar文件<br/>
+接着会打开浏览器下载
+得到一个server.jar文件
 
 ### 注:
 Mod服以及插件服需要第三方服务端
