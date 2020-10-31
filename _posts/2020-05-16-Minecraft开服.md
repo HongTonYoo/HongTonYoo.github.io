@@ -22,15 +22,15 @@ Mod服以及插件服需要第三方服务端
 
 ## 启动
 新建.txt文件，输入
-<br/>
 
-<pre><code class="language-css">@echo OFF
+```cpp
+@echo OFF
 java -Xmx2G -Xms256M -jar <文件名>.jar
-pause</code></pre>
+pause
+```
 
-<br/>
 
-改后缀为.bat<br/>
+改后缀为.bat
 双击启动
 
 ### 注:
@@ -62,8 +62,10 @@ pause</code></pre>
 ## 启动
 这里用脚本启动<br/>
 
-<pre><code class="language-css">#!/bin/sh
+```cpp
+#!/bin/sh
 java -Xms4G -Xmx512M -jar <路径> nogui;</code></pre>
+```
 
 ## 配置
 同windows
