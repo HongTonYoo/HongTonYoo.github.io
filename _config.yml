@@ -24,22 +24,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
-            - | # 心知天气
-              <div id="tp-weather-widget"></div>
-              <script>
-                (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
-               window.SeniverseWeatherWidget('show', {
-                 flavor: "bubble",
-                 location: "WX4FBXXFKE4F",
-                 geolocation: true,
-                 language: "zh-Hans",
-                 unit: "c",
-                 theme: "auto",
-                 token: "bd7b90a9-9c97-495d-b8c1-4f14947ff2ae",
-                 hover: "enabled",
-                 container: "tp-weather-widget"
-                })
-               </script>
             - | #百度统计代码
               <script>
               var _hmt = _hmt || [];
@@ -408,6 +392,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                  <i class="far fa-clock"></i>
                  04/03/2020
                 </div>
+              - | # 心知天气
+                <div id="tp-weather-widget"></div>
+                <script>
+                  (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+                 window.SeniverseWeatherWidget('show', {
+                   flavor: "bubble",
+                   location: "WX4FBXXFKE4F",
+                   geolocation: true,
+                   language: "zh-Hans",
+                   unit: "c",
+                   theme: "auto",
+                   token: "bd7b90a9-9c97-495d-b8c1-4f14947ff2ae",
+                   hover: "enabled",
+                   container: "tp-weather-widget"
+                  })
+                 </script>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
