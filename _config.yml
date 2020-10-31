@@ -24,7 +24,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
-            - | #百度统计代码
+            - | # 心知天气
               <div id="tp-weather-widget"></div>
               <script>
                 (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
@@ -68,12 +68,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://en.gravatar.com/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=320"
+                href="https://gravatar.zeruns.tech/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=320"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://en.gravatar.com/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=32"
+                href="https://gravatar.zeruns.tech/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=32"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
