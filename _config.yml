@@ -19,7 +19,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </script>
   <br>
   <a href="https://tangsanshi.top/feed.xml">
-    <i class="fab fa-feed"></i>
+    <i class="fa fa-rss"></i>
   </a>
   <a href="https://github.com/HongTonYoo">
     <i class="fab fa-github"></i>
