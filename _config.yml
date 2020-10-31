@@ -2,6 +2,8 @@ title: 三石 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   ‘自然选择’，前进四
   <br/>
+  <iframe>weather.seniverse.com/?token=bd7b90a9-9c97-495d-b8c1-4f14947ff2ae<iframe/>
+  <br/>
   <a href="https://github.com/HongTonYoo">
     <i class="fab fa-github"></i>
   </a>
@@ -25,7 +27,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #心知天气
-              <iframe>weather.seniverse.com/?token=bd7b90a9-9c97-495d-b8c1-4f14947ff2ae<iframe/>
+
             - | #百度统计代码
               <script>
               var _hmt = _hmt || [];
