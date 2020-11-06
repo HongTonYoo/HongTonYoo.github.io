@@ -1,3 +1,5 @@
+<!-- .slide -->
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/js/Hitokoto.js"></script>
 <div>   
     <p class="hitokoto"></p> 
