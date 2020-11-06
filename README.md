@@ -30,7 +30,12 @@
 
 # 感谢
 
+- [GitHub Pages](https://pages.github.com/)
+- [jekyll](https://github.com/jekyll/jekyll)
+- [jekyll主题——jekyll-theme-wuk](https://github.com/wu-kan/wu-kan.github.io)
 - [Gravatar头像镜像源](https://zhuanlan.zhihu.com/p/115248957)
-- [jekyll主题](https://github.com/wu-kan/wu-kan.github.io)
+- [Valine评论系统](https://valine.js.org/)
+- [jsdelivr](https://cdn.jsdelivr.net/)
+
 
 <!-- slide vertical=true -->
