@@ -17,7 +17,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
       container: "tp-weather-widget"
     })
   </script>
-  <br>
   <a href="https://tangsanshi.top/feed.xml">
     <i class="fa fa-rss"></i>
   </a>
@@ -28,6 +27,13 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-steam"></i>
   </a>
   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=160 height=52 src="//music.163.com/outchain/player?type=2&id=409302035&auto=1&height=32"></iframe>
+  <br/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/js/Hitokoto.js"></script>
+  <div>   
+    <p class="hitokoto"></p> 
+    <p class="from"></p> 
+  </div>
+
 url: https://tangsanshi.top # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
