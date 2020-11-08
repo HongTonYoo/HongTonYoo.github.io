@@ -1,11 +1,11 @@
-<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/image/home/foggy.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/sanksu/sanksu.github.io@master/image/home/foggy.jpg" , data-background-opacity="0.5"-->
 
 ## 三石的小栈
 
 小小的小栈
 
 <!-- .slide -->
-<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/image/home/bookstore.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/sanksu/sanksu.github.io@master/image/home/bookstore.jpg" , data-background-opacity="0.5"-->
 
 ## 书架上的标签
 
@@ -16,7 +16,7 @@
 - Linux
 
 <!-- .slide vertical=true -->
-<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/image/home/book.jpg" , data-background-opacity="0.5"-->
+<!-- .slide: data-background-image="https://cdn.jsdelivr.net/gh/sanksu/sanksu.github.io@master/image/home/book.jpg" , data-background-opacity="0.5"-->
 
 ## 夹在书中的名片
 
