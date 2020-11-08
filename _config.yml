@@ -20,7 +20,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://tangsanshi.top/feed.xml">
     <i class="fa fa-rss"></i>
   </a>
-  <a href="https://github.com/HongTonYoo">
+  <a href="https://github.com/sanksu">
     <i class="fab fa-github"></i>
   </a>
   <a href="https://steamcommunity.com/profiles/76561198273837928">
@@ -413,7 +413,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                  04/03/2020
                 </div>
               - | # 一言
-                <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/js/Hitokoto.js"></script>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sanksu/sanksu.github.io@master/js/Hitokoto.js"></script>
                 <div>   
                   <p class="hitokoto"></p> 
                   <p class="from"></p> 
@@ -698,7 +698,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 homePageUrl='/'
                 homePageName='回到我的主页'
               ></script>
-
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
   clippings: all
   comments: [] # 注释不能压缩，否则 reveal.js 的 ppt切屏受影响
