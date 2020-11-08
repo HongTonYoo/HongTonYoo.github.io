@@ -698,6 +698,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 homePageUrl='/'
                 homePageName='回到我的主页'
               ></script>
+        hitokoto:
+          prepend:
+            - | # 一言
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hongtonyoo/hongtonyoo.github.io@master/js/Hitokoto.js"></script>
+              <div>   
+                <p class="hitokoto"></p> 
+                <p class="from"></p> 
+              </div>
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
   clippings: all
   comments: [] # 注释不能压缩，否则 reveal.js 的 ppt切屏受影响
