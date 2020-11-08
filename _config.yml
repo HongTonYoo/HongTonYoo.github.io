@@ -1,4 +1,4 @@
-title: 三石 # 站点标题
+title: Sanksu # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   ‘自然选择’，前进四
   <br/>
@@ -29,7 +29,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <br/>
   <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=160 height=52 src="//music.163.com/outchain/player?type=2&id=409302035&auto=1&height=32"></iframe>
   
-url: https://tangsanshi.top # 你的域名，例如 https://wu-kan.github.io
+url: https://sanksu.top # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -619,9 +619,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var myname = "3Stones";
                 var profile = "https://en.gravatar.com/userimage/189218100/65aced17702a0fd65003e141f5df01c2.jpg?size=320";
                 var multilingual = true;
-                var myname_hans = "唐磊";
-                var myname_hant = "唐磊";
-                var myname_eng = "3Stones";
+                var myname_hans = "SanShi";
+                var myname_hant = "Sanksu";
+                var myname_eng = "Sanksu";
                 var title = "选择你的支付方式";
                 var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
               </script>
