@@ -1,0 +1,13 @@
+{
+    "name": "Sanksu's BLOG",
+    "short_name": "Sanksu",
+    "icons": [{
+          "src": "/image/icon/icon.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }],
+    "start_url": "/index.html?homescreen=1",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#2a7ae2"
+  }
